@@ -73,21 +73,23 @@ It achieved the highest R² Score and the lowest prediction error, making it the
 - Pickle
 
 ---
-
 # 📷 Application Screenshots
 
-### 🏠 Home Page
+## 🏠 Home Page
 
-(Add Screenshot)
+![Home Page](images/home.png)
 
-### 📝 Input Form
+---
 
-(Add Screenshot)
+## 📝 Input Form
 
-### 💰 Prediction Result
+![Input Form](images/input.png)
 
-(Add Screenshot)
+---
 
+## 💰 Prediction Result
+
+![Prediction Result](images/prediction.png)
 ---
 
 # 🌐 Live Demo
