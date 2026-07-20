@@ -96,7 +96,7 @@ It achieved the highest R² Score and the lowest prediction error, making it the
 
 **Streamlit App**
 
-(Add your Streamlit link here after deployment.)
+(https://employee-salary-prediction-system-g6btwm4un4fzn8mhqsza5z.streamlit.app/)
 
 ---
 
@@ -111,15 +111,6 @@ Employee-Salary-Prediction-System
 ├── job_role_encoder.pkl
 ├── requirements.txt
 └── README.md
-```
-
----
-
-# 💻 Run Locally
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
 ```
 
 ---
