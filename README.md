@@ -77,27 +77,20 @@ Salary_Prediction_Project/
 
 ---
 
-## ▶️ How to Run
+## 🚀 Live Demo
 
-Clone the repository:
+You can use the application directly through Streamlit Cloud.
 
-```bash
-git clone <repository-link>
-```
+🔗 Live App: (Add your Streamlit link here)
 
-Install dependencies:
+---
+
+## 💻 Run Locally
 
 ```bash
 pip install -r requirements.txt
-```
-
-Run the application:
-
-```bash
 streamlit run app.py
 ```
-
----
 
 ## 📸 Screenshots
 
