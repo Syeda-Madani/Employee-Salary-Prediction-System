@@ -163,7 +163,7 @@ st.divider()
 # Load Saved Files
 # ======================================
 
-model = pickle.load(open("Salary_prediction_model.pkl", "rb"))
+model = pickle.load(open("salary_prediction_model.pkl", "rb"))
 
 education_encoder = pickle.load(open("education_encoder.pkl", "rb"))
 
