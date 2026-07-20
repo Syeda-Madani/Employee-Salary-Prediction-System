@@ -1,12 +1,26 @@
 # 💰 Employee Salary Prediction System
 
-A Machine Learning web application that predicts an employee's annual salary based on their professional profile.
+A Machine Learning web application that predicts an employee's annual salary based on professional and personal attributes using Regression algorithms.
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-This project uses a trained Machine Learning Regression model to estimate an employee's annual salary using the following information:
+This project predicts an employee's estimated annual salary using Machine Learning.
+
+The application is built with **Python**, **Scikit-Learn**, and **Streamlit**, allowing users to enter employee details and instantly receive a salary prediction.
+
+---
+
+# 🎯 Project Objective
+
+The objective of this project is to learn how Machine Learning Regression models can be used to predict numerical values based on real-world employee data.
+
+---
+
+# 📊 Dataset Features
+
+The model uses the following features:
 
 - Age
 - Years of Experience
@@ -17,21 +31,15 @@ This project uses a trained Machine Learning Regression model to estimate an emp
 - Number of Skills
 - Remote Work
 
-The application is built using **Streamlit** for the user interface and **Scikit-Learn** for machine learning.
+Target Variable:
+
+- Annual Salary (USD)
 
 ---
 
-## 🚀 Features
+# 🤖 Machine Learning Algorithms
 
-- Professional Streamlit UI
-- Real-time Salary Prediction
-- Machine Learning Regression Model
-- Responsive Layout
-- User-friendly Input Form
-
----
-
-## 🤖 Algorithms Used
+The following regression algorithms were trained and compared:
 
 - ✅ Linear Regression
 - ✅ Decision Tree Regressor
@@ -39,7 +47,7 @@ The application is built using **Streamlit** for the user interface and **Scikit
 
 ---
 
-## 🏆 Best Model
+# 🏆 Model Performance
 
 | Model | R² Score |
 |-------|---------:|
@@ -47,11 +55,15 @@ The application is built using **Streamlit** for the user interface and **Scikit
 | Random Forest | 0.9726 |
 | Decision Tree | 0.9373 |
 
-**Best Model:** Linear Regression
+### ✅ Selected Model
+
+**Linear Regression**
+
+It achieved the highest R² Score and the lowest prediction error, making it the best-performing model for this dataset.
 
 ---
 
-## 🛠 Technologies Used
+# 🛠 Technologies Used
 
 - Python
 - Pandas
@@ -62,10 +74,34 @@ The application is built using **Streamlit** for the user interface and **Scikit
 
 ---
 
-## 📂 Project Structure
+# 📷 Application Screenshots
+
+### 🏠 Home Page
+
+(Add Screenshot)
+
+### 📝 Input Form
+
+(Add Screenshot)
+
+### 💰 Prediction Result
+
+(Add Screenshot)
+
+---
+
+# 🌐 Live Demo
+
+**Streamlit App**
+
+(Add your Streamlit link here after deployment.)
+
+---
+
+# 📁 Project Structure
 
 ```
-Salary_Prediction_Project/
+Employee-Salary-Prediction-System
 │
 ├── app.py
 ├── salary_prediction_model.pkl
@@ -77,33 +113,45 @@ Salary_Prediction_Project/
 
 ---
 
-## 🚀 Live Demo
-
-You can use the application directly through Streamlit Cloud.
-
-🔗 Live App: (Add your Streamlit link here)
-
----
-
-## 💻 Run Locally
+# 💻 Run Locally
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 📸 Screenshots
+---
 
-(Add screenshots here after deployment.)
+# 📚 What I Learned
+
+During this project, I learned:
+
+- Data preprocessing
+- Label Encoding
+- Regression algorithms
+- Model evaluation using R², MAE and RMSE
+- Saving models with Pickle
+- Building web applications using Streamlit
+- Deploying Machine Learning applications
+
+I also improved my understanding of Python, HTML, and CSS by applying them in a real project.
+
+> **What we learn is never wasted. Every project teaches us something new.**
 
 ---
 
-## 👩‍💻 Developer
+# 🙏 Acknowledgement
+
+Special thanks to **Sir Zafar Iqbal** for his guidance and for providing the opportunity to learn AI and Machine Learning from home.
+
+---
+
+# 👩‍💻 Developer
 
 **Syeda Faiza Adil**
 
-Machine Learning & AI Student
+AI & Machine Learning Student
 
----
+Currently learning and improving every day by building real-world Machine Learning projects.
 
-### ⭐ Thank you for visiting this project!
+⭐ Thank you for visiting this project!
